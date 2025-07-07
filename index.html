@@ -141,7 +141,7 @@
             <h3>1. Download Forge</h3>
             <p>Search "Forge 1.7.10" and get the installer from the official site.</p>
             <div class="screenshot">
-                <img src="https://cdn.discordapp.com/attachments/1346163576653480035/1346163744203341894/image.png?ex=685eccaf&is=685d7b2f&hm=c166de95cfac86369438ff8a9a3d77cfd79dc55983ffac3e848547ba5c908d23&">
+                <img src="images/image.png">
                 <div>The Forge download page - click the installer button</div>
             </div>
             <div class="warning">Hit "Skip" on any ad pages that pop up</div>
@@ -151,7 +151,7 @@
             <h3>2. Install Server</h3>
             <p>Run the installer, select <strong>Install Server</strong>, pick an empty folder.</p>
             <div class="screenshot">
-                <img src="https://cdn.discordapp.com/attachments/1346163576653480035/1346163794467885209/image.png?ex=685eccbb&is=685d7b3b&hm=2d1ed0cf3231d7e963f238c96a1e21b3564f3c6c88ed9a78202167c799054c1f&">
+                <img src="images/image1.png">
             </div>
         </div>
 
@@ -159,7 +159,7 @@
             <h3>3. First Run</h3>
             <p>Go to your server folder and double-click <code>minecraft_server.1.7.10.jar</code></p>
             <div class="screenshot">
-                <img src="https://cdn.discordapp.com/attachments/1346163576653480035/1346163842756907090/image.png?ex=685eccc6&is=685d7b46&hm=ecb040876fd777a6b24dd1baa1d9adea409cdd6fff363a113011f27d705fd6ae&">
+                <img src="images/image2.png">
                 <div>Click on minecraft_server.1.7.10.jar</div>
             </div>
             <p>This creates the initial files.</p>
@@ -169,12 +169,12 @@
             <h3>4. Accept EULA</h3>
             <p>Open <code>eula.txt</code> with notepad and change it to:</p>
             <div class="screenshot">
-                <img src="https://cdn.discordapp.com/attachments/1194808157529198733/1387954099349360690/image.png?ex=685f387c&is=685de6fc&hm=d58537602d57239f4676f77eaaa819f9d5c2e5ecbd9f9f39ae21fc41ac97c14e&">
+                <img src="images/image3.png">
                 <div>Open eula.txt with notepad</div>
             </div>
             <div class="code-block">eula=true</div>
             <div class="screenshot">
-                <img src="https://cdn.discordapp.com/attachments/1346163576653480035/1346163923875004458/image.png?ex=685eccd9&is=685d7b59&hm=cf562af0df73a5330ebbbc8e68a388b7919863d60b6718e08327096707dbb018&">
+                <img src="images/image4.png">
                 <div>Change to eula=true and save</div>
             </div>
             <p>Save and run <code>minecraft_server.1.7.10.jar</code> again. Close when it says "Done".</p>
@@ -184,11 +184,11 @@
             <h3>5. Run Forge</h3>
             <p>Double-click <code>forge-1.7.10-10.13.4.1614-1.7.10-universal.jar</code></p>
             <div class="screenshot">
-                <img src="https://cdn.discordapp.com/attachments/859493046503866368/1346161241466470471/image.png?ex=685eca5a&is=685d78da&hm=cd5ce4c2d1b4064cc81c4874e4f693c5aef1c9541cf800a970f740a20923340f&&">
+                <img src="images/image5.png">
                 <div>The forge universal jar file in your folder</div>
             </div>
             <div class="screenshot">
-                <img src="https://cdn.discordapp.com/attachments/859493046503866368/1346161204112134235/image.png?ex=685eca51&is=685d78d1&hm=09dfb9782b7db88966a510135837589c55c0a2ee52a59c011033ac6b11f8fd3f&">
+                <img src="images/image6.png">
                 <div>Wait for "Done" in the console then close</div>
             </div>
         </div>
@@ -197,11 +197,11 @@
             <h3>6. Create Launch Script</h3>
             <p>Make a new file called <code>start.bat</code> and put this inside:</p>
             <div class="screenshot">
-                <img src="https://cdn.discordapp.com/attachments/859493046503866368/1346161723257782384/image.png?ex=685ecacd&is=685d794d&hm=9ada2f2a9bcbe502ee7e158b7c04d73ab3d678f17bacc1cb06b8080bad014220&png">
+                <img src="images/image7.png">
                 <div>Right-click to create new batch file</div>
             </div>
             <div class="screenshot">
-                <img src="https://cdn.discordapp.com/attachments/859493046503866368/1346162942541828197/image.png?ex=685ecbf0&is=685d7a70&hm=a9b552897db22bedb40386abe1724190682a714e7877cc933c17ee88a0cb4319&">
+                <img src="images/image8.png">
                 <div>Right-click the .bat file and select Edit</div>
             </div>
             <div class="code-block">java -Xmx4096M -Xms4096M -XX:+UseG1GC -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
@@ -213,13 +213,14 @@ PAUSE</div>
             <h3>7. Add Mods & Start</h3>
             <p>Put your mod .jar files in the <code>mods</code> folder.</p>
             <p>Double-click <code>start.bat</code> to run your server.</p>
-            
-        <div class="warning">
-            <strong>Note:</strong> Friends can't connect yet - you need port forwarding or use the tool below.
-        </div>
 
-        <div class="footer">
-            <p>Here's a quick video to set-up tunneling using playit.gg. <a href="https://www.youtube.com/watch?v=NK5lsDXIFnM" target="_blank">Check this video</a></p>
+            <div class="warning">
+                <strong>Note:</strong> Friends can't connect yet - you need port forwarding or use the tool below.
+            </div>
+
+            <div class="footer">
+                <p>Here's a quick video to set-up tunneling using playit.gg. <a href="https://www.youtube.com/watch?v=NK5lsDXIFnM" target="_blank">Check this video</a></p>
+            </div>
         </div>
     </div>
 </body>
